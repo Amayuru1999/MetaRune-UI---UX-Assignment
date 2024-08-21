@@ -1,13 +1,13 @@
 const NavBar = () => {
   return (
-    <nav className="w-full flex items-center border border-black">
+    <nav className="w-full flex items-center ">
       <ul className="w-full flex justify-between m-0 p-0 list-none">
-        <li className="w-20"> 
+        <li className="w-45 "> 
           <div className="flex justify-center items-center h-full p-4 border border-black">
             <a href="/" className="w-full text-center">Shop</a>
           </div>
         </li>
-        <li className="w-20"> 
+        <li className="w-45"> 
           <div className="flex justify-center items-center h-full p-4 border border-black">
             <a href="/" className="w-full text-center">Contact</a>
           </div>
@@ -17,12 +17,12 @@ const NavBar = () => {
            
           </div>
         </li>
-        <li className="w-20"> 
+        <li className="w-45"> 
           <div className="flex justify-center items-center h-full p-4 border border-black">
             <a href="/" className="w-full text-center">Sign in</a>
           </div>
         </li>
-        <li className="w-20"> 
+        <li className="w-45"> 
           <div className="flex justify-center items-center h-full p-4 border border-black">
             <a href="/" className="w-full text-center">Cart</a>
           </div>
