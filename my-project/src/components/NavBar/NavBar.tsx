@@ -2,26 +2,31 @@ import React from 'react';
 
 const NavBar = () => {
   return (
-    <nav className="flex items-center">
-      <ul className="flex justify-between ">
-        <li>
-          <div className="p-2 border border-black ">
-            <a href="/" >Shop</a>
+    <nav className="w-full flex items-center border border-black">
+      <ul className="w-full flex justify-between m-0 p-0 list-none">
+        <li className="w-20"> 
+          <div className="flex justify-center items-center h-full p-4 border border-black">
+            <a href="/" className="w-full text-center">Shop</a>
           </div>
         </li>
-        <li>
-          <div className="p-2 border border-black ">
-            <a href="/" >Contact</a>
+        <li className="w-20"> 
+          <div className="flex justify-center items-center h-full p-4 border border-black">
+            <a href="/" className="w-full text-center">Contact</a>
           </div>
         </li>
-        <li>
-          <div className="p-2 border border-black ">
-            <a href="/" >Sign in</a>
+        <li className="flex-1"> 
+          <div className="flex justify-center items-center h-full p-4 border border-black">
+           
           </div>
         </li>
-        <li>
-          <div className="p-2 border border-black ">
-            <a href="/" >Cart</a>
+        <li className="w-20"> 
+          <div className="flex justify-center items-center h-full p-4 border border-black">
+            <a href="/" className="w-full text-center">Sign in</a>
+          </div>
+        </li>
+        <li className="w-20"> 
+          <div className="flex justify-center items-center h-full p-4 border border-black">
+            <a href="/" className="w-full text-center">Cart</a>
           </div>
         </li>
       </ul>
