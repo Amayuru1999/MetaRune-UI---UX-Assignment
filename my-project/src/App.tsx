@@ -1,5 +1,6 @@
 import './App.css'
 import AboutUs from './components/AboutUs/AboutUs'
+import Contact from './components/Contact/Contact'
 import Gallery from './components/Gallery/Gallery'
 import Hero from './components/Hero/Hero'
 import NavBar from './components/NavBar/NavBar'
@@ -15,6 +16,7 @@ function App() {
       <Gallery/>
       <AboutUs/>
       <Offer/>
+      <Contact/>
     </>
   )
 }
