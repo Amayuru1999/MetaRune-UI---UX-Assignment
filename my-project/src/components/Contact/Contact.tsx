@@ -19,7 +19,8 @@ const Contact = () => {
             <div className="border-b border-r border-black w-[350px] h-[50px] p-2">
               <h1 className="text-2xl">Phone</h1>
             </div>
-            <div className="flex items-center justify-center mt-20">
+            <div className="border-r border-black h-full">
+            <div className="flex items-center justify-center ">
               <svg
                 width="18"
                 height="18"
@@ -49,12 +50,14 @@ const Contact = () => {
               </svg>
               <h2>+380980099111</h2>
             </div>
+            </div>
+            
           </div>
           <div className="flex-col">
             <div className="border-b  border-black w-[350px] h-[50px] p-2">
               <h1 className="text-2xl">Address</h1>
             </div>
-            <div className="flex items-center justify-center mt-20">
+            <div className="flex items-center justify-center ">
               <h2 className="uppercase">opening hours: 8 to 11 p.m.</h2>
             </div>
             <div className="flex items-center justify-center">
