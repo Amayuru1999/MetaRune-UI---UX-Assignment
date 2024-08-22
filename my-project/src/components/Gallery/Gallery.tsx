@@ -1,5 +1,6 @@
 import pic4 from "../../assets/4.png";
 import pic5 from "../../assets/5.png";
+import pic6 from "../../assets/6.png"
 
 const Gallery = () => {
   return (
@@ -37,7 +38,7 @@ const Gallery = () => {
             </div>
             <div className="border-r border-b border-black w-[260px] h-[260px] flex items-center justify-center">
               <img
-                src={pic5}
+                src={pic6}
                 alt="flowers"
                 className="w-[256px] h-[256px] object-cover"
               />
