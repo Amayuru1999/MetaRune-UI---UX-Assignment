@@ -1,8 +1,9 @@
 import pic1 from "../../assets/1.jpg";
+import pic2 from "../../assets/2.jpg"
 const Hero = () => {
   return (
-    <div className="w-full border border-black flex">
-      <div className="w-[720px] border-r border-b border border-black h-[720px] flex items-start p-10">
+    <div className="w-full border-r border-b border-black  flex">
+      <div className="w-[720px]  border border-black h-[720px] flex items-start p-10">
         <div className="flex flex-col justify-start p-4">
           <h1 className="text-6xl text-left">Kyiv</h1>
           <h1 className="text-6xl text-left">LuxeBouquets</h1>
@@ -28,8 +29,17 @@ const Hero = () => {
         </div>
       </div>
       <div className="flex">
-        <div className="border-r border-b border-black w-[360px] h-[360px]">
-
+        <div className="border-r border-b border-black w-[260px] h-[260px] flex items-center justify-center">
+            <h1 className="text-3xl">
+              Fresh Flowers
+            </h1>
+        </div>
+        <div className="border-r border-b border-black w-[260px] h-[260px] flex items-center justify-center">
+        <img
+              src={pic2}
+              alt="flowers"
+              className="w-[256px] h-[256px] object-cover"
+            />
         </div>
       </div>
     </div>
