@@ -4,7 +4,7 @@ import pic5 from "../../assets/5.png";
 const Gallery = () => {
   return (
     <div className="flex">
-      <div className="w-[1440px]  border border-r border-b border-l border-black h-[520px] flex">
+      <div className="w-[1440px]   border-r border-b border-l border-black h-[780px] flex">
         <div className="border-r border-black w-[695px]"></div>
         <div className="flex-col">
           <div className="flex">
