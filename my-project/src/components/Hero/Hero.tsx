@@ -3,7 +3,7 @@ import pic2 from "../../assets/2.jpg"
 import pic3 from "../../assets/3.png"
 const Hero = () => {
   return (
-    <div className="w-full border-r border-b border-black  flex">
+    <div className="w-full flex">
       <div className="w-[720px]  border border-black h-[520px] flex items-start p-10">
         <div className="flex flex-col justify-start p-4">
           <h1 className="text-6xl text-left">Kyiv</h1>
